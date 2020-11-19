@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="images/favcon.png" type="image/gif" sizes="20x20" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="res.css" />
+
+        <title>Atom Protino Demo V 0.1</title>
+
+        <div id="loading">
+            <img src="images/preloader2.gif" />
+        </div>
+    </head>
+
+    <body onload="myFunction()">
+        <div class="container">
+            <div class="row">
+                <nav>
+                    <a href="index.html"><img src="images/final logo1.png" class="logo" /></a>
+                    <div id="mob-menu" class="open-menu">
+                        <ul>
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="pages/login-page.html">Login</a></li>
+                            <li><a href="pages/app.html">Register</a></li>
+                        </ul>
+                    </div>
+                    <label id="mobNav" class="cros-btn#">
+            <div id="line1" class="l-1"></div>
+            <div id="line2" class="l-2"></div>
+            <div id="line3" class="l-3"></div>
+          </label>
+                </nav>
+                <!--------------------------------------nav-------------------------------------------------------------------------------------------------------------->
+
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                    <div class="app-text">
+                        <h1>Lets Start with Atom Today</h1>
+                        <p>
+                            ATOM is a powerfull machine learning tool for analysing your power grids atom give a clear idea about total usege of power in your local grids and give detaild energy report by using atommachine learnig algorthams also give idea about instrumets connected
+                            to your grid.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                    <div class="side-img">
+                        <img src="images/bgfinal.png" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-lg-6">
+                    <div class="button">
+                        <a href="pages/app.html" class="btn-1">Get Start Today</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-6"></div>
+            </div>
+        </div>
+        <!-----------------------------------------container end---------------------------------------------00000000----->
+        <!--preloader -code-->
+        <script>
+            // $(document).ready(function(){
+            // 	$('div#loading').removeAttr('id');
+            // });
+            var preloader = document.getElementById("loading");
+            // window.addEventListener('load', function(){
+            // 	preloader.style.display = 'none';
+            // 	})
+
+            function myFunction() {
+                preloader.style.display = "none";
+            }
+        </script>
+        <!--preloser section -end-->
+    </body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+</html>
